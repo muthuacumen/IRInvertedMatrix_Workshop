@@ -38,7 +38,7 @@ def exec_notebook(path: str) -> dict:
     return env
 
 
-def log_submission(student_id, notebook, score, total, status, logfile="submissions_log.csv"):
+def log_submission(student_id, notebook, score, total, status, logfile="utils/submissions_log.csv"):
     """Append submission results to CSV gradebook."""
     log_exists = os.path.exists(logfile)
     with open(logfile, "a", newline="", encoding="utf-8") as f:  # <-- force UTF-8

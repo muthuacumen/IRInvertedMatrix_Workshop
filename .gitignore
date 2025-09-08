@@ -1,1 +1,6 @@
+# Ignore local virtual environment
 .venv/
+
+# Ignore instructor-only materials
+Instructor_Instructions_Workshop.ipynb
+
