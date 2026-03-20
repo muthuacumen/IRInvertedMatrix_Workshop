@@ -4,3 +4,11 @@
 # Ignore instructor-only materials
 Instructor_Instructions_Workshop.ipynb
 
+# Personal study notes (not for repo)
+prereadformuthu.md
+
+# Python cache
+__pycache__/
+
+# Claude Code
+.claude/
