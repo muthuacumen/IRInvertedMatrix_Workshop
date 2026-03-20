@@ -2,10 +2,11 @@
 # 🧑‍🏫 NLP Workshop: IR Inverted Matrix
 
 Developed by: David Espinosa, September 2025
+Completed by: Muthu, March 2026
 
 This repository contains the **Natural Language Processing Workshop** with:
 - Active learning notebook (`IR_InvertedMatrix_Workshop.ipynb`)
-- Automated submission script (`submit_assignment.py`)
+- Automated submission script (`utils/submit_assignment.py`)
 - Validation + scoring (`utils/validate_notebook.py`)
 - Configurable requirements (`config/required_items.json`)
 - Auto-generated gradebook (`submissions_log.csv`)
@@ -15,8 +16,8 @@ This repository contains the **Natural Language Processing Workshop** with:
 ## 🎓 Student Instructions (Quick Start)
 1. **Fork & Clone the Repo**
    ```bash
-   git clone https://github.com/<your_username>/IR_Inverted_Matrix_Workshop.git
-   cd IR_Inverted_Matrix_Workshop
+   git clone https://github.com/muthuacumen/IRInvertedMatrix_Workshop.git
+   cd IRInvertedMatrix_Workshop
    ```
 
 2. **Install Dependencies**
@@ -33,7 +34,7 @@ This repository contains the **Natural Language Processing Workshop** with:
 4. **Submit Your Work**
    Run in the last cell:
    ```python
-   !python submit_assignment.py --notebook IR_InvertedMatrix_Workshop.ipynb --student_id "team1"
+   !python utils/submit_assignment.py --notebook IR_InvertedMatrix_Workshop.ipynb --student_id "team1"
    ```
 
    ✅ If valid → notebook is committed & pushed to `submissions/team1`  
@@ -102,6 +103,5 @@ This repository contains the **Natural Language Processing Workshop** with:
 
 ---
 
-📌 For detailed step-by-step guides, see:  
-- [Instructor Instructions Notebook](Instructor_Instructions_Workshop.ipynb)  
-- [Student Instructions Notebook](Student_Instructions_Workshop.ipynb)  
+📌 For a detailed step-by-step guide, see:
+- [Student Instructions Notebook](Student_Instructions_Workshop.ipynb)
